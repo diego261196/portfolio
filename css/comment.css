@@ -1,0 +1,37 @@
+.comment-elementos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.comment {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.comment h1 {
+  font: var(--headline5);
+  margin: 0;
+}
+
+.comment p {
+  font-size: 24px;
+  line-height: 39px;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .comment {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-inline-start: 129px;
+    padding-inline-end: 129px;
+  }
+
+  .comment p {
+    font-size: 34px;
+    line-height: 55px;
+    font-weight: 300;
+  }
+}
